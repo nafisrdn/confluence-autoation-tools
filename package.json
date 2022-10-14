@@ -1,0 +1,16 @@
+{
+  "name": "confluence-tools",
+  "version": "1.0.0",
+  "description": "Automation tools for confluence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nafis Ramadhan Fadhlurrohman | nafisrdn@gmail.com | +62 851 5630 9224",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "selenium-webdriver": "^4.4.0",
+    "xlsx": "^0.18.5"
+  }
+}
