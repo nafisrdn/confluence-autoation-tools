@@ -29,7 +29,7 @@ async function getAllUsers() {
 
     const data = res.data;
 
-    users.push(data.users);
+    users.push(...data.users);
     hasNextPage = data.hasNextPage;
     offset += pageSize;
   }
