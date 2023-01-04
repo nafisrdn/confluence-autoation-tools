@@ -4,12 +4,15 @@
   "description": "Automation tools for confluence",
   "main": "index.js",
   "scripts": {
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nafis Ramadhan Fadhlurrohman | nafisrdn@gmail.com | +62 851 5630 9224",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "selenium-webdriver": "^4.4.0",
     "xlsx": "^0.18.5"
   }
