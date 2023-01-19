@@ -7,7 +7,7 @@ const { SERVER_PORT } = require("./src/configs/server.config");
 
 const express = require("express");
 const app = express();
-const port = SERVER_PORT | 3000;
+const port = SERVER_PORT | 8080;
 
 
 const usersRouter = require("./src/routes/users.route");
